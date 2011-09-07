@@ -1,6 +1,7 @@
 QRCodeLinkulator
 
 A project I came up with to see how hard it would be to adapt graphics
-libraries black-listed in Java to all white-listed Java classes. The
-result is found in this project which makes use of PNGJ and Gaelyk.
+libraries black-listed in Google App Engine for Java to all 
+white-listed Java classes. The result is found in this project which 
+makes use of PNGJ and Gaelyk.
 
