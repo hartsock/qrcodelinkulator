@@ -1,0 +1,80 @@
+<html>
+  <head><title>Develop with Linkulator</title>
+<style type="text/css" media="screen">
+img {
+  border: none;
+}
+h2 {
+  margin-top:15px;
+  margin-bottom:15px;
+  font-size:1.2em;
+}
+#pageBody {
+  text-align: center;
+}
+#logo h1 {
+  font-size:xx-large;
+}
+#more {
+  text-align:left;
+  width:40%;
+  margin:auto;
+}
+</style></head>
+  <body>
+
+  <div id="pageBody">
+    <div id="logo">
+      <h1>
+        <img src="/images/linkulator.png" alt="Linkulator" border="0" align="middle" />
+        QRCode Linkulator</h1>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <div id="more">
+      <a href="/">back</a>
+    <div>
+    <p>
+    <ul id="menu" class="menu">
+    <li>
+      <h2>How to embed a QRCode Link on your site.</h2>
+        <span>
+          <p>
+            Place this code on the page you wish to render a
+            QRCode:
+            <br>
+          </p><pre>&lt;img src="http://qrcodelinkulator.appspot.com/<b>128</b>" /&gt;</pre>
+          <br>
+          You can specify image size like this:
+          <br>
+          <pre>&lt;img src="http://qrcodelinkulator.appspot.com/<b>128</b>" width="128" height="128" /&gt;</pre>
+          <p>
+            <i>NOTE:</i> the number in bold represents both width and height since QR Codes are square.
+          </p>
+        </span>
+    </li>
+    <li>
+        <h2>How to embed a specific link image on your site</h2>
+        <span>
+          <p>
+            Place this code on the page you wish to render a
+            QRCode:
+            <br>
+          </p><pre>&lt;img src="http://qrcodelinkulator.appspot.com/128?http://google.com" /&gt;</pre>
+        </span>
+    </li>
+    <li>
+      <h2>Who wrote this?</h2>
+        <span id="sig">
+          Shawn Hartsock <a href="http://hartsock.blogspot.com">http://hartsock.blogspot.com</a>
+        </span>
+    </li>
+  </ul>
+
+      </p>
+    </div>
+      <a href="/">back</a>
+  </div>
+  </body>
+</html>
